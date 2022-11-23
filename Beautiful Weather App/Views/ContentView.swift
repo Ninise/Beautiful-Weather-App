@@ -19,12 +19,12 @@ struct ContentView: View {
             
             if let location = locationManager.location {
                 if let weather = weather {
-                    Text("Weather data fetched")
+                    WeatherView(weather: weather)
                 } else {
                     LoadingView()
                         .task {
                             do {
-                                try await weatherManager.getCurrentWeather(lat: location.latitude, long: location.longitude)
+                                weather = try await weatherManager.getCurrentWeather(lat: location.latitude, long: location.longitude)
                             } catch {
                                 print("Error getting weather")
                             }
