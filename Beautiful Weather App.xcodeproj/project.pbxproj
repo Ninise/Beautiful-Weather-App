@@ -13,6 +13,8 @@
 		1177A286292D155200E78578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1177A285292D155200E78578 /* Preview Assets.xcassets */; };
 		1177A28E292D189300E78578 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A28D292D189300E78578 /* LocationManager.swift */; };
 		1177A291292D19A900E78578 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A290292D19A900E78578 /* WelcomeView.swift */; };
+		1177A293292DE1A100E78578 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A292292DE1A100E78578 /* LoadingView.swift */; };
+		1177A295292DE2C100E78578 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A294292DE2C100E78578 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		1177A285292D155200E78578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1177A28D292D189300E78578 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		1177A290292D19A900E78578 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		1177A292292DE1A100E78578 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1177A294292DE2C100E78578 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				1177A28D292D189300E78578 /* LocationManager.swift */,
+				1177A294292DE2C100E78578 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				1177A280292D155000E78578 /* ContentView.swift */,
 				1177A290292D19A900E78578 /* WelcomeView.swift */,
+				1177A292292DE1A100E78578 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,7 +168,9 @@
 				1177A281292D155000E78578 /* ContentView.swift in Sources */,
 				1177A27F292D155000E78578 /* Beautiful_Weather_AppApp.swift in Sources */,
 				1177A28E292D189300E78578 /* LocationManager.swift in Sources */,
+				1177A293292DE1A100E78578 /* LoadingView.swift in Sources */,
 				1177A291292D19A900E78578 /* WelcomeView.swift in Sources */,
+				1177A295292DE2C100E78578 /* WeatherManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
